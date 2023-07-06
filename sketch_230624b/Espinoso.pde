@@ -1,4 +1,4 @@
-public class Espinoso extends GameObject {
+public class Espinoso extends GameObject implements IVisualizable{
   private PImage espinosoUnoImage; // Variable para almacenar el primer sprite del objeto Espinoso
   private PImage espinosoDosImage; // Variable para almacenar el segundo sprite del objeto Espinoso
   private float speed = -3.0f; // Velocidad de movimiento negativa del objeto Espinoso

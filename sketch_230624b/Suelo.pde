@@ -1,4 +1,4 @@
-public class Suelo extends GameObject {
+public class Suelo extends GameObject implements IVisualizable {
   private PImage sueloImagen; // Variable para almacenar la imagen del suelo
 
   private Suelo(float x, float y) {
