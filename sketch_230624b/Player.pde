@@ -1,4 +1,4 @@
-public class Player extends GameObject {
+public class Player extends GameObject implements IVisualizable{
   private PImage pasoUno; // Variable para almacenar el primer sprite del jugador
   private PImage pasoDos; // Variable para almacenar el segundo sprite del jugador
   private int frameActual; // Variable para almacenar el número de frame actual de la animación del jugador

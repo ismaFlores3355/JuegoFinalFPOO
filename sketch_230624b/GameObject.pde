@@ -5,8 +5,6 @@ public abstract class GameObject {
     position = new PVector(x, y); // Crea un nuevo objeto PVector con las coordenadas proporcionadas y lo asigna a la variable "position"
   }
 
-  public abstract void display(PApplet sketch); // Método abstracto para mostrar el objeto (debe ser implementado en las clases derivadas)
-
   public PVector getPosition() {
     return position; // Devuelve la posición actual del objeto
   }
